@@ -1,3 +1,7 @@
 [submodule "themes/den"]
 	path = themes/den
 	url = git@github.com:hasselg/hugo-theme-den.git
+[submodule "public"]
+	path = public
+	url = git@github.com:hasselg/concordia_site.git
+	branch = master
