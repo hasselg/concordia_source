@@ -1,0 +1,35 @@
+baseURL = "http://dev.concordialutheranwatertown.com"
+languageCode = "en-us"
+title = "Concordia Lutheran Church"
+theme = "den"
+#enableRobotsTXT = true       # generate robots.txt
+enableEmoji = true           # use emoji support
+hasCJKLanguage = true        # detect CJK languages for word count etc.
+preserveTaxonomyNames = true # do not make tag names lowercase
+# uglyURLs = true            # more info: https://gohugo.io/content-management/urls/#ugly-urls
+rssLimit = 20                # limit number of entries in RSS feeds
+
+# Copyright, appears in the footer
+# copyright = ""             # default: author.name
+
+# Pagination
+# number of entries per page for archives, tags and categories
+# since we don't have list view, recommend a large value
+paginate = 20
+paginatePath = "page"
+
+[sitemap]                    # required
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# Links format
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+  categories = "/category/:slug/"      # required
+  tags = "/tag/:slug/"                 # required
+  pages = "/:slug/"
+
+[params]
+  headerTitle = "Home"
+  headerImage = "images/background.jpg"
