@@ -18,6 +18,8 @@ rssLimit = 20                # limit number of entries in RSS feeds
 paginate = 20
 paginatePath = "page"
 
+googleAnalytics = "UA-130205241-1"
+
 [sitemap]                    # required
   changefreq = "weekly"
   priority = 0.5
